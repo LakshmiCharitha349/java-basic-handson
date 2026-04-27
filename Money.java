@@ -10,7 +10,6 @@ final int value;
   Money add(Money rupees) {
     int total = this.value + rupees.value;
     return new Money(total);
-
   }
 
   Money minus(Money rupees) {
